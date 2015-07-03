@@ -1,7 +1,9 @@
 # import the necessary packages
 import numpy as np
 import cv2
- 
+
+print (cv2.__version__)
+
 # load the games image
 image = cv2.imread("games.jpg")
  
